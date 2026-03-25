@@ -75,6 +75,7 @@ Drag-and-drop is implemented using native browser events. When a card is dragged
 
 The hardest part was implementing drag-and-drop without using any library. Initially, dragging caused layout shifts and unstable UI. I solved this by adding a placeholder with the same height as the dragged card, which kept the layout stable. Another challenge was handling the drag state correctly. I tracked the dragged item, source column, and target column to ensure correct behavior on drop.
 For virtual scrolling, I rendered only visible rows to maintain performance with large data.
+I further improved performance based on Lighthouse insights by reducing unnecessary re-renders, avoiding expensive calculations during render, and minimizing DOM nodes where possible. After these optimizations, the application became much smoother and more responsive.
 If I had more time, I would refactor the drag-and-drop logic into reusable hooks to make the code cleaner and easier to maintain.
 
 ## Lighthouse Screenshot 
