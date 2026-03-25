@@ -79,3 +79,5 @@ I further improved performance based on Lighthouse insights by reducing unnecess
 If I had more time, I would refactor the drag-and-drop logic into reusable hooks to make the code cleaner and easier to maintain.
 
 ## Lighthouse Screenshot 
+
+<img width="1604" height="782" alt="Lighthouse" src="https://github.com/user-attachments/assets/44e528e6-281a-432a-b42b-b182624d30fc" />
